@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+    .f {
+    margin-top: 20px;
+    margin-left: 540px;
+    font-size: 0.5px;
+    font-family: AngsanaUPC;
+    font-weight: bold;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    font-family: AngsanaUPC;
+    font-weight: bold;
+    font-spacing: 100px;
+    position: relative;
+    color: black;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    opacity: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, black, #201a1a);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    transition: .4s;
+}
+
+nav a:hover::after {
+    width: 50%;
+    opacity: 1;
+}
+
+.para1 {
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #880000;
+    margin-left:  800px;
+    margin-top: 200px;
+}
+.para2 {
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #880000;
+    margin-left: 800px;
+}
+
+.paracetamol {
+    background-image:url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+
+}
+.song{
+    width:400px;
+    background-color: aquamarine;
+}
+.button {
+background-color:#fff;
+border-radius: 50px;
+color: #880000;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+margin-top: 100px;
+margin-left: 1170px;   
+}
+
+.bio {
+font-family: AngsanaUPC;
+color:#880000;
+font-size: 30px;
+margin-left:800px ;
+}
+</style>
+<body class="paracetamol" background="wallpaper.jpg">
+    
+<div style="display: flex;">
+    <div>
+        <h1 class="para1"> RENAISSANCE </h1>
+        <h2 class="para2"> "ยุคฟื้นฟูศิลปวิทยา"</h2>
+    </div>
+</div>
+<p class="bio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สมัยฟื้นฟูศิลปวิทยาเป็นช่วงเวลาในประวัติศาสตร์ยุโรปที่ทำให้เกิดการเปลี่ยนแปลงจากสมัยกลางสู่สมัยใหม่และครอบคลุมศตวรรษที่ 15 และ 16</p>
+<a class="button" href="./Index.html" id="btn">Explore</a>
+
+</body>
+
+</html>

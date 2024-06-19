@@ -1,0 +1,159 @@
+*
+{
+    margin: 0;
+    padding: 4;
+    font-family: AngsanaUPC;
+    scroll-behavior: smooth;
+    
+}
+
+.navbar{
+    background-color: #880000;
+    color: white;
+    height: 80px;
+    
+    }
+
+.logo{
+        width: 20%;
+        display: flex;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        background: #880000;
+ }
+header{
+    displaify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image:url('view2.jpg') ;
+    background-size: cover;
+  
+}
+
+.start {
+    background: #dfc3a0;
+    font-family: AngsanaUPC;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    color: #880000;
+}
+.start p {
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+
+}
+.start h3 {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 80px;
+
+}
+.team1{
+    background:#641E16   ;
+    margin-top: 0px;
+    display: grid;
+   
+}
+
+.frame{
+    background: #641E16;
+    margin: 10px; padding: 10px; 
+    outline: 2px dotted #dfc3a0; 
+    vertical-align: top;
+    z-index: 100;
+    position: relative;
+}
+
+.frame h2{
+    font-size: 25px;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 0px;
+    color: #F0B27A ;
+}
+
+.team-items1{
+    padding: 2rem;
+    display: flex;
+}
+
+.team-items1 img#petro {
+    width: 100%;
+    padding-left: 2px;
+    margin-top: -80px;
+   
+}
+.team-items1 p{
+    font-size: 20px;
+    color:#F0B27A;
+    padding-left: 2%;
+    padding-right: 5%;
+    padding-top: -30px;
+    
+}
+.frame2{
+    background: #dfc3a0;
+    margin: 10px; padding: 10px; 
+    outline: 2px dotted #641E16; 
+    vertical-align: top;
+    z-index: 100;
+    position: relative;
+}
+.frame2 h2{
+    font-size: 25px;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 0px;
+    color: #880000 ;
+}
+
+.team2{
+    background:#dfc3a0   ;
+    margin-top: 0px;
+    display: grid;
+   
+}
+.team-items2{
+    padding: 2rem;
+    display: flex;
+}
+.team-items2 img#picteam2 {
+    width: 24%;
+    padding-left: 2px;
+    margin-top: -80px;
+}
+
+.team-items2 p{
+    font-size: 20px;
+    color:#880000;
+    padding-left: 2%;
+    padding-right: 5%;
+    padding-top: -30px;
+    
+}
+
+section::before
+{
+    content: '';
+    position: absolute;
+    bottom: 180px;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#dfc3a0,transparent);
+    z-index:1000;
+}
+footer{
+    background-color: #b86565;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+

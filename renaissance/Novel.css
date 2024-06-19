@@ -1,0 +1,589 @@
+*
+{
+    margin: 0;
+    padding: 4;
+    font-family: AngsanaUPC;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+background-color: #880000;
+color: white;
+height: 80px;
+
+}
+.logo{
+    width: 20%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+header{
+    displaify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image:url('book-header.jpg') ;
+    background-size: cover;
+  
+}
+.header-info{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 150px;
+    font-family: AngsanaUPC;
+    width: 600px;
+    padding-left: 15px;
+    font-size: 25px;
+    border-radius: 20px;
+    background: #dfc3a0d2;
+    color: #880000;
+}
+
+section::before
+{
+    content: '';
+    position: absolute;
+    bottom: 160px;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#dfc3a0,transparent);
+    z-index:1000;
+}
+
+/***********************************************************คนที่1****************************************************************************/
+
+.writer1 {
+    background: #dfc3a0;
+    display: flex;
+    font-family: AngsanaUPC;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    color: #880000;
+}
+
+.writer1 h3 {
+    font-size: 30px;
+    padding-left: 70px;
+    margin-top: 100px;
+
+}
+
+.writer1 p {
+    font-size: 25px;
+    margin-left: -400px;
+    margin-top: 150px;
+
+}
+
+.writer1 img {
+    width: 11%;
+    margin-top: 80px;
+    float: left;
+    margin-left: 120px;
+    
+}
+.team1{
+    background:#641E16   ;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.team-items1{
+    padding: 2rem;
+}
+
+.team-items1 h3 {
+    font-size: 25px;
+    margin-left: 80px;
+    color: #F0B27A 
+    
+}
+
+.team-items1 h2 {
+    font-size: 25px;
+    margin-left: 140px;
+    color: #F0B27A ;
+    
+}
+
+.team-items1 img {
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 20px;
+
+}
+
+/**********************************************************************************************คนที่2*******************************************************************************/
+.writer2 {
+    background: #dfc3a0;
+    display: flex;
+    font-family: AngsanaUPC;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    color: #880000;
+}
+
+.writer2 h3 {
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+.writer2 p {
+    font-size: 25px;
+    margin-left:-400px;
+    margin-top: 150px;
+
+}
+
+.writer2 img {
+    width: 11%;
+    margin-top: 80px;
+    float: right;
+    margin-left: 50px;
+    
+}
+
+.team2{
+    background: #641E16;
+    margin-top: 0px;
+    display: flex;
+    grid-template-columns: repeat (2, fr1);
+    justify-content: center;
+    align-items: center;
+}
+
+.team-items2{
+    padding: 2rem;
+}
+
+.team-items2 h3 {
+    font-size: 25px;
+    margin-left: 100px;
+    color: #F0B27A ;
+    
+}
+
+.team-items2 h2 {
+    font-size: 25px;
+    margin-left: 120px;
+    color: #F0B27A ;
+    
+}
+
+.team-items2 img#art {
+    width: 50%;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.team-items2 img#prince {
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+/****************************************************************************คนที่3**************************************************************************************************/
+
+.writer3 {
+    background: #dfc3a0;
+    display: flex;
+    font-family: AngsanaUPC;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    color: #880000;
+}
+
+.writer3 h3 {
+    font-size: 30px;
+    padding-left: 70px;
+    margin-top: 100px;
+
+}
+
+.writer3 p {
+    font-size: 25px;
+    margin-left: -315px;
+    margin-top: 150px;
+
+}
+
+.writer3 img {
+    width: 11%;
+    margin-top: 80px;
+    float: left;
+    margin-left: 120px;
+    
+}
+.team3{
+    background: #641E16;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.team-items3{
+    padding: 2rem;
+}
+
+.team-items3 h3 {
+    font-size: 25px;
+    margin-left: 290px;
+    color: #F0B27A ;
+    
+}
+
+.team-items3 h2 {
+    font-size: 25px;
+    margin-left: 260px;  
+    color: #F0B27A ;
+    
+}
+
+.team-items3 img {
+    width: 35%;
+    padding-left: 220px;
+    padding-top: 20px;
+}
+
+.team-items3 img#novel3-1 {
+    width: 65%;
+    padding-left: 140px;
+    padding-top: 50px;
+}
+
+/****************************************************************************คนที่4**************************************************************************************************/
+.writer4 {
+    background: #dfc3a0;
+    display: flex;
+    font-family: AngsanaUPC;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    color: #880000;
+}
+
+.writer4 h3 {
+    font-size: 30px;
+    padding-left: 130px;
+    margin-top: 100px;
+
+}
+
+.writer4 p {
+    font-size: 25px;
+    margin-left: -160px;
+    margin-top: 150px;
+
+}
+
+.writer4 img {
+    width: 11%;
+    margin-top: 80px;
+    float: right;
+    margin-left: 60px;
+    
+}
+.team4{
+    background: #641E16;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.team-items4{
+    padding: 2rem;
+}
+
+.team-items4 h3 {
+    font-size: 25px;
+    margin-left: 320px;
+    color: #F0B27A ;
+    
+}
+
+.team-items4 h2 {
+    font-size: 25px;
+    margin-left: 350px;
+    color: #F0B27A ;
+    
+}
+
+.team-items4 img {
+    width: 40%;
+    padding-left: 220px;
+    padding-top: 20px;
+}
+
+.team-items4 img#novel4-1 {
+    width: 50%;
+    padding-left: 220px;
+    padding-top: 20px;
+}
+
+/****************************************************************************คนที่5**************************************************************************************************/
+
+.writer5 {
+    background: #dfc3a0;
+    display: flex;
+    font-family: AngsanaUPC;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    color: #880000;
+}
+
+.writer5 h3 {
+    font-size: 30px;
+    padding-left: 40px;
+    margin-top: 100px;
+
+}
+
+.writer5 p {
+    font-size: 25px;
+    margin-left: -200px;
+    margin-top: 150px;
+
+}
+
+.writer5 img {
+    width: 11%;
+    margin-top: 80px;
+    float: left;
+    margin-left: 120px;
+}
+
+.team5{
+    background: #641E16;
+    margin-top: 0px;
+}
+
+.team-items5 h3 {
+    font-size: 25px;
+    margin-left: 730px;
+    padding-top: 50px;
+    color: #F0B27A ;
+    
+}
+
+.team-items5 img {
+    width: 20%;
+    padding-left: 620px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/****************************************************************************คนที่6**************************************************************************************************/
+
+
+
+.writer6 {
+    background: #dfc3a0;
+    display: flex;
+    font-family: AngsanaUPC;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    color: #880000;
+}
+
+.writer6 h3 {
+    font-size: 30px;
+    margin-left: 130px;
+    margin-top: 100px;
+
+}
+
+.writer6 p {
+    font-size: 25px;
+    margin-left:-1230px;
+    margin-top: 150px;
+
+}
+
+.writer6 img {
+    width: 11%;
+    margin-top: 80px;
+    float: right;
+    margin-left: 800px;
+    
+}
+
+.team6{
+    background:#641E16;
+    margin-top: 0px;
+    display: flex;
+    grid-template-columns: repeat (3, fr1);
+    justify-content: center;
+    align-items: center;
+}
+
+.team-items6{
+    padding: 2rem;
+}
+
+.team-items6 h3 {
+    font-size: 25px;
+    margin-left: 110px;
+    color: #F0B27A ;
+    margin-bottom: 15px;
+}
+
+.team-items6 h2 {
+    font-size: 25px;
+    margin-left: 100px;
+    color: #F0B27A ;
+    margin-bottom: 15px;
+}
+
+.team-items6 h1 {
+    font-size: 25px;
+    margin-left: 140px;
+    color: #F0B27A ;
+    margin-bottom: 15px;
+    
+}
+
+.team-items6 img#romeo{
+    width: 75%;
+    margin-left: 40px;
+}
+.team-items6 img#novel6-2{
+    width: 75%;
+    margin-left: 60px;
+}
+
+/****************************************************************************คนที่7**************************************************************************************************/
+
+.writer7 {
+    background: #dfc3a0;
+    display: flex;
+    font-family: AngsanaUPC;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    color: #880000;
+}
+
+.writer7 h3 {
+    font-size: 30px;
+    padding-left: 100px;
+    margin-top: 100px;
+
+}
+
+.writer7 p {
+    font-size: 25px;
+    margin-left: -190px;
+    margin-top: 150px;
+
+}
+
+.writer7 img {
+    width: 11%;
+    margin-top: 80px;
+    float: left;
+    margin-left: 120px;
+}
+
+.team7{
+    background: #641E16;
+    margin-top: 0px;
+}
+
+.team-items7 h3 {
+    font-size: 25px;
+    margin-left: 685px;
+    padding-top: 50px;
+    color: #F0B27A ;
+    
+}
+
+.team-items7 img {
+    width: 15%;
+    padding-left: 620px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/****************************************************************************คนที่7**************************************************************************************************/
+
+
+.writer8 {
+    background: #dfc3a0;
+    display: flex;
+    font-family: AngsanaUPC;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    color: #880000;
+}
+
+.writer8 h3 {
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+.writer8 p {
+    font-size: 25px;
+    margin-left:-170px;
+    margin-top: 150px;
+
+}
+
+.writer8 img {
+    width: 14%;
+    margin-top: 80px;
+    float: right;
+    margin-left: 200px;
+    
+}
+
+.team8{
+    background: #641E16;
+    margin-top: 0px;
+}
+
+.team-items8 h3 {
+    font-size: 25px;
+    margin-left: 730px;
+    padding-top: 50px;
+    color:#F0B27A ;
+    
+}
+
+.team-items8 img {
+    width: 15%;
+    padding-left: 640px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer{
+    background-color: #b86565;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
